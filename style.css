@@ -1,0 +1,34 @@
+body {
+    background-image: url(/Assets/Images/papyrus/papyrus.png)
+}
+
+img {
+    width: inherit;
+}
+
+.main_content {
+    margin: 0 auto 20px;
+    width: 960px;
+}
+
+.footer {
+    background-color: #777777;
+    border-top: 5px solid teal;
+    color: #afafaf;
+    font-size: 10px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#name {
+    background-color: teal;
+    color: white;
+    display: inline;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#nav_list {
+    float: right;
+}
