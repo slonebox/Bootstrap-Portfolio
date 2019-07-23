@@ -2,12 +2,32 @@ body {
     background-image: url(/Assets/Images/papyrus/papyrus.png)
 }
 
+header {
+    border-bottom: solid 2px #afafaf;
+    background-color: white;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+h1 {
+    border-bottom: solid 2px #afafaf;
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
 img {
+    padding-bottom: 20px;
     width: inherit;
 }
 
 .main_content {
-    margin: 0 auto 20px;
+    background-color: white;
+    border: 1px solid #afafaf;
+    margin: 0 auto 40px;
     width: 960px;
 }
 
@@ -23,12 +43,7 @@ img {
 #name {
     background-color: teal;
     color: white;
-    display: inline;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     padding: 10px;
-}
-
-#nav_list {
-    float: right;
 }
