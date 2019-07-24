@@ -28,6 +28,14 @@ a {
     color: #777777;
 }
 
+article {
+    padding: 10px;
+}
+
+ul {
+    align-content: center
+}
+
 .main_content {
     background-color: white;
     border: 1px solid #afafaf;
@@ -35,13 +43,18 @@ a {
     width: 960px;
 }
 
-.footer {
+#footer {
     background-color: #777777;
     border-top: 5px solid teal;
+    bottom: 0;
     color: #afafaf;
     font-size: 10px;
     line-height: 60px;
+    position: relative;
+    bottom: 0;
     text-align: center;
+    width: 100%;
+    z-index: 1;
 }
 
 .no-padding {
