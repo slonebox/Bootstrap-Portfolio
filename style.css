@@ -7,6 +7,7 @@ header {
     background-color: white;
     padding: 0px;
     margin: 0px auto 20px auto;
+    width: 100vw;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
 
 img {
     padding-bottom: 20px;
-    max-width: 700px;
+    max-width: 100vw;
     width: inherit;
 }
 
@@ -45,7 +46,7 @@ ul {
     background-color: white;
     border: 1px solid #afafaf;
     margin: 0 auto 40px;
-    width: 960px;
+    width: 100vw;
 }
 
 #footer {
@@ -53,11 +54,11 @@ ul {
     border-top: 5px solid teal;
     color: #afafaf;
     font-size: 10px;
-    line-height: 60px;
+    line-height: 40px;
     position: fixed;
     bottom: 0;
     text-align: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .no-padding {
@@ -70,4 +71,8 @@ ul {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
     padding: 10px;
+}
+
+#navbar {
+    width: 100vw;
 }
