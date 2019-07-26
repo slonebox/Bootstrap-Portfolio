@@ -49,6 +49,11 @@ ul {
     width: 100vw;
 }
 
+.portfolio-image {
+    display: inline-block;
+    max-width: 300px;
+}
+
 #footer {
     background-color: #777777;
     border-top: 5px solid teal;
@@ -68,7 +73,7 @@ ul {
 #name {
     background-color: teal;
     color: white;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     padding: 10px;
 }
