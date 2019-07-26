@@ -49,9 +49,31 @@ ul {
     width: 100vw;
 }
 
+.img-container {
+    display: inline-block;
+    max-width: 300px;
+    position: relative;
+    text-align: center;
+
+}
+
 .portfolio-image {
     display: inline-block;
     max-width: 300px;
+}
+
+.project-title {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: block;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    font-style: none;
+    line-height: 40px;
+    position: absolute;
+    top: 75%;
+    align-content: center;
+    width: 100%;
 }
 
 #footer {
