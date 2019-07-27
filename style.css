@@ -119,3 +119,15 @@ label {
     margin: 0px 0px 15px 0px;
     width: 200px;
 }
+
+@media screen and (max-width: 650px) {
+    #name {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    ul {
+        justify-content: center;
+        width: 100%;
+    }
+}
